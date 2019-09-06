@@ -1,0 +1,100 @@
+html {
+    --body-text: 'Raleway', sans-serif;
+}
+
+.profileImage {
+    text-align: center;
+}
+
+.profileImage img {
+    border: 10px solid;
+    border-color: #195566;
+    border-radius: 50%;
+}
+
+body {
+    text-align: justify;
+    font-family: var(--body-text);
+}
+
+.Skills {
+    background: #a5c3db;
+    font-size: 20px;
+    border-radius: 1%;
+    border: 10px solid;
+    border-color: #352424;
+}
+
+.Skills td {
+    font-family: 'Oswald', sans-serif;
+}
+
+.Skills ul {
+    color: #587470;
+}
+
+.Project {
+    border-radius: 1%;
+    border: 10px;
+    border: ridge;
+    border-color: #030202;
+    margin-top: 15px;
+}
+
+.ProjectTitle {
+    text-align: center;
+    font-size: 20px;
+    border: 0px;
+    border: ridge;
+    border-color: #030202;
+}
+
+.ProjectTool {
+    background: #c1dfe7;
+    color: #442634;
+    border: 0px;
+    border: ridge;
+    border-color: #030202;
+}
+
+.ProjectDescription {
+    background: #2daacc;
+    color: #ffffff;
+    border: 0px;
+    border: ridge;
+    border-color: #030202;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 12px;
+    background: #FFF;
+}
+
+.personalInformation {
+    border-left: 6px solid;
+    border-color: #2daacc;
+    font-size: 18px;
+}
+
+.ProjectTool {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Nanum Gothic', sans-serif !important;
+    text-align: center !important;
+}
+
+h3 {
+    font-family: var(--body-text);
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
